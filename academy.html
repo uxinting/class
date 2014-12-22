@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="For Class">
+    <meta name="author" content="xinting">
+    <title>Class</title>
+
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">玉雕石刻</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.htm">欢迎</a></li>
+                <li><a href="class.html">某班</a></li>
+                  <li class="active"><a href="academy.html">艺院</a></li>
+                <li><a href="campus.html">校园</a></li>
+                  <li><a href="about.html">关于</a></li>
+                  <li><a href="contact.html">联系我们</a></li>
+               
+              </ul>
+            </div>
+          </div>
+        </nav>
+          
+          <div class="jumbotron">
+            <img class="img-circle pull-right" src="img/Desktop/academy/academy.jpg" style="width: 140px; height: 140px;">
+            <h1>艺院</h1>
+            <p>是经教育部批准设置的普通本科高校，前身是享有盛誉的武汉科技大学中南分校。经近20年发展，已成为一所以工学、管理学为主、多学科协调发展的知名高校。学校位于“武汉•中国光谷”，占地1413亩，建筑面积40余万平方米。学校依山傍水，座落在美丽的梅南山麓,我国最大的城中湖汤逊湖三面环抱 ，欧式风格校园建筑掩映在青山绿树之中，校园风景如画，与北京大学、武汉大学一起被公认为全国十大美丽校园之一。</p>
+            <p><a class="btn btn-primary btn-lg" href="http://art.wut.edu.cn/" target="_blank" role="button">更多</a></p>
+        </div>
+          <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <a data-toggle="modal" data-target="#image" class="thumbnail">
+                  <img src="img/Desktop/campus/.ml.l..jpg" alt="...">
+                </a>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <a data-toggle="modal" data-target="#image" class="thumbnail">
+                  <img src="img/Desktop/campus/0841121.jpg" alt="...">
+                </a>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <a data-toggle="modal" data-target="#image" class="thumbnail">
+                  <img src="img/Desktop/campus/.ml.l..jpg" alt="...">
+                </a>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <a data-toggle="modal" data-target="#image" class="thumbnail">
+                  <img src="img/Desktop/campus/.ml.l..jpg" alt="...">
+                </a>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <a data-toggle="modal" data-target="#image" class="thumbnail">
+                  <img src="img/Desktop/campus/.ml.l..jpg" alt="...">
+                </a>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <a data-toggle="modal" data-target="#image" class="thumbnail">
+                  <img src="img/Desktop/campus/.ml.l..jpg" alt="...">
+                </a>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <a data-toggle="modal" data-target="#image" class="thumbnail">
+                  <img src="img/Desktop/campus/.ml.l..jpg" alt="...">
+                </a>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <a data-toggle="modal" data-target="#image" class="thumbnail">
+                  <img src="img/Desktop/campus/.ml.l..jpg" alt="...">
+                </a>
+              </div>
+            </div>
+
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 武昌理工大学. 玉雕特色. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+        
+<div id="image" class="modal fade ">
+      <img src="" >
+</div><!-- /.modal -->
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+        <script>
+        $('#image').on('show.bs.modal', function (e) {
+            $('#image img').attr('src', $(e.relatedTarget).find('img').attr('src') );
+        })
+
+        </script>
+  </body>
+</html>
